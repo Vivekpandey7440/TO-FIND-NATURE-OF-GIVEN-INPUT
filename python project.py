@@ -1,10 +1,10 @@
 import random
 
-print("Welcome (●'◡'●)")
-minNum = int(input("Enter your min value➡: "))
-maxNum = int(input("Enter your max value➡: "))
+print("Welcome to Python world")
+MinNum = int(input("Enter your min value: "))
+MaxNum = int(input("Enter your max value: "))
 
-num = random.randint(minNum,maxNum);
+num = random.randint(MinNum,MaxNum);
 print("Range is (%d,%d) and randomly picked number is %d"%(minNum,maxNum,num))
 
 
